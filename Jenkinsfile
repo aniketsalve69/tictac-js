@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('test') {
       steps {
         sh '''echo "Compiling second time"
 '''
