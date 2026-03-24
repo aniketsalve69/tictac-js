@@ -1,12 +1,11 @@
 pipeline {
   agent any
+
   stages {
-    stage('test') {
+    stage('Test') {
       steps {
-        sh '''echo "Compiling second time"
-'''
+        sh 'echo "Compiling second time"'
       }
     }
-
   }
 }
